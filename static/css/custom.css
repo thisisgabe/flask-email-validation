@@ -1,0 +1,54 @@
+.section {
+    margin-top: 20px;
+}
+
+.container {
+    border-bottom: 1px solid black;
+}
+
+.add-user {
+    text-align: center;
+}
+
+.header {
+    border-bottom: none;
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.section:last-of-type .container {
+    border-bottom: none;
+}
+
+.form-input {
+    width: 50%;
+    /* margin: 0 auto; */
+}
+
+.form-input label {
+    display: inline-block;
+}
+
+.list table {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.list thead {
+    background-color: gray;
+}
+
+.list td {
+    border-right: 2px solid black;
+}
+
+.list tbody>tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.list th:first-child, td:first-child {
+    padding: 12px 15px;
+}
